@@ -40,7 +40,7 @@ const BlogModal = ({ isOpen, onClose, blog, demoLink }) => {
 
               {/* ブログコンテンツ */}
               <div className="max-w-none">
-                <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+                <h1 className="text-xl md:text-2xl md:text-3xl font-bold text-foreground mb-6">
                   {blog.title}
                 </h1>
                 <div

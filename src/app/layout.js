@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
           inter.variable,
           "bg-background text-foreground font-inter"
         )}
+        
       >
         {children}
         <FireFliesBackground />

@@ -24,18 +24,18 @@ const ProjectLayout = ({ name, description, date, demoLink, blog }) => {
       <motion.button
         variants={item}
         onClick={handleClick}
-        className="text-sm md:text-base flex items-center justify-between w-full relative rounded-lg overflow-hidden p-4 md:p-6 custom-bg cursor-pointer hover:shadow-glass-sm transition-shadow"
+        className="text-sm md:text-base md:flex items-center justify-between flex-row w-full relative rounded-lg overflow-hidden p-4 md:p-6 custom-bg cursor-pointer hover:shadow-glass-sm transition-shadow"
       >
         <div className="flex items-center justify-center space-x-2">
           <h2 className="text-foreground">{name}</h2>
-          <p className="text-muted hidden sm:inline-block">{description}</p>
+          <p className=" text-muted hidden sm:inline-block">{description}</p>
         </div>
         <div className="self-end flex-1 mx-2 mb-1 bg-transparent border-b border-dashed border-muted" />
-        <p className="text-muted sm:text-foreground">
+        <p className="text-muted sm:text-foreground ">
           {new Date(date).toDateString()}
         </p>
       </motion.button>
-      
+
       {blog && (
         <BlogModal
           isOpen={isModalOpen}

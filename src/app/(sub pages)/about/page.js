@@ -35,7 +35,7 @@ export default function Home() {
           MAKØTO
           </h1>
           <p className="font-light text-foreground text-lg">
-          MAKØTOのお仕事に協力してみませんか？！
+          MAKØTOのお仕事<br className="sm:hidden"></br>協力してみませんか？！
           </p>
         </div>
       </div>

@@ -122,12 +122,12 @@ export const projectsData = [
 ];
 
 export const BtnList = [
-  { label: "メイン画面", link: "/", icon: "home", newTab: false },
+  { label: "ホーム", link: "/", icon: "home", newTab: false },
   { label: "寺内誠将", link: "/about", icon: "about", newTab: false },
   { label: "最新情報", link: "/projects", icon: "projects", newTab: false },
   { label: "公式LINE", link: "https://page.line.me/527qtybu?oat_content=url&openQrModal=true", icon: "contact", newTab: false },
   {
-    label: "Le Repas MAKØTO's レシピ本",
+    label: "Le Repas MAKØTO's レシピ",
     link: "/cooking",
     icon: "cooking",
     newTab: true,
@@ -146,7 +146,7 @@ export const BtnList = [
   },
   {
     label: "株式会社KANOA GROUP",
-    link: "https:kanoa-group.com",
+    link: "https://kanoa-group.com",
     icon: "kanoa",
     newTab: true,
   },
