@@ -25,7 +25,7 @@ export default function CookingPage() {
             <div className="flex flex-col sm:flex-row items-center justify-center mb-3 sm:mb-4 gap-2 sm:gap-4">
               <ChefHat size={36} className="sm:w-12 sm:h-12 text-accent" />
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
-                Le Repas MAKØTO's レシピ
+                Le Repas MAKØTO&apos;s レシピ
               </h1>
             </div>
             <p className="text-muted text-sm sm:text-base md:text-lg mt-2 sm:mt-4 px-4">
