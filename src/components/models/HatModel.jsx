@@ -27,7 +27,7 @@ const HatModel = React.memo(function HatModel(props) {
   });
   
   // スマホサイズの時は位置を上に、サイズを小さく
-  const scale = isMobile ? [8, 8, 8] : [13, 13, 13];
+  const scale = isMobile ? [10, 10, 10] : [13, 13, 13];
   const position = isMobile ? [0, 3, 0] : [0, 0, 0];
   
   return (

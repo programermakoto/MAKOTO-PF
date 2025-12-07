@@ -31,7 +31,7 @@ const RecipeDetail = ({ recipe, isOpen, onClose }) => {
             className="fixed inset-0 z-50 flex items-center justify-center p-4"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="relative w-full max-w-3xl max-h-[90vh] overflow-y-auto custom-bg rounded-lg p-4 sm:p-5 md:p-6 lg:p-8">
+            <div className="relative w-full max-w-3xl max-h-[90vh] overflow-y-auto custom-bg rounded-lg p-8 sm:p-5 md:p-6 lg:p-8">
               {/* 閉じるボタン */}
               <button
                 onClick={onClose}

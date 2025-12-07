@@ -21,7 +21,7 @@ export default function Model(props) {
   }, []);
 
   // スマホだけスケール変更
-  const scale = isMobile ? 0.2 : 1;
+  const scale = isMobile ? 0.3 : 1;
 
   return (
     <group ref={group} {...props} scale={scale} dispose={null}>

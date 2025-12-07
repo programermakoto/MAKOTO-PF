@@ -34,7 +34,7 @@ export default function Home() {
           <h1 className="font-bold py-10 md:py-0  text-6xl xs:text-7xl sm:text-8xl  lg:text-9xl text-accent">
           MAKØTO
           </h1>
-          <p className="font-light text-foreground text-sm md:text-lg">
+          <p className="font-light text-foreground text-center text-sm md:text-lg">
           MAKØTOのお仕事を<br className="sm:hidden"></br>協力してみませんか？！
           </p>
         </div>

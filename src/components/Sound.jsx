@@ -81,7 +81,7 @@ const Sound = () => {
     setShowModal(false);
   };
   return (
-    <div className="fixed top-4 right-2.5 xs:right-4 z-50 group">
+    <div className="fixed bottom-4 right-2.5 xs:right-4 z-50 group">
       {showModal && (
         <Modal onClose={() => setShowModal(false)} toggle={toggle} />
       )}
