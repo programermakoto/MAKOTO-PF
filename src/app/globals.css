@@ -10,6 +10,10 @@
     --accent: 254 254 91;
     /* hex value of rgb(254,254,91) color is  #FEFE5B  */
   }
+
+  html {
+    scrollbar-gutter: stable;
+  }
 }
 
 @layer utilities {
@@ -19,6 +23,19 @@
 
   .custom-bg {
     @apply bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px] shadow-glass-inset hover:shadow-glass-sm;
+  }
+
+  /* ブラウザUIの表示/非表示によるレイアウトシフトを防ぐ */
+  .h-screen {
+    height: 100dvh;
+  }
+
+  .min-h-screen {
+    min-height: 100dvh;
+  }
+
+  .max-h-\[90vh\] {
+    max-height: 90dvh;
   }
 }
 

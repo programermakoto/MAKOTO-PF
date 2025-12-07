@@ -7,7 +7,7 @@ const RecipeDetail = ({ recipe, isOpen, onClose }) => {
   if (!recipe) return null;
 
   const officialLineUrl =
-    "https://page.line.me/527qtybu?oat_content=url&openQrModal=true";
+    "https://lin.ee/uyEekRW";
 
   return (
     <AnimatePresence>
@@ -35,15 +35,15 @@ const RecipeDetail = ({ recipe, isOpen, onClose }) => {
               {/* 閉じるボタン */}
               <button
                 onClick={onClose}
-                className="absolute top-2 right-2 sm:top-4 sm:right-4 text-foreground hover:text-accent transition-colors z-10"
+                className="absolute top-3 right-3 md:top-4 md:right-4 z-10 p-2 rounded-full bg-background/80 hover:bg-background/90 text-foreground hover:text-accent transition-all shadow-lg backdrop-blur-sm"
                 aria-label="閉じる"
               >
-                <X size={20} className="sm:w-6 sm:h-6" />
+                <X size={20} className="md:w-6 md:h-6" />
               </button>
 
               {/* レシピコンテンツ */}
-              <div className="space-y-4 sm:space-y-5 md:space-y-6">
-                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-foreground pr-8 sm:pr-10">
+              <div className="space-y-4 sm:space-y-5 md:space-y-6 pr-8 md:pr-12">
+                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-foreground">
                   {recipe.name}
                 </h1>
 

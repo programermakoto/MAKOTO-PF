@@ -31,11 +31,11 @@ export default function Home() {
 
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
         <div className="absolute flex flex-col items-center text-center top-1/2 sm:top-[60%] left-1/2 -translate-y-1/2 -translate-x-1/2">
-          <h1 className="font-bold  text-6xl xs:text-7xl sm:text-8xl  lg:text-9xl text-accent">
+          <h1 className="font-bold py-10 md:py-0  text-6xl xs:text-7xl sm:text-8xl  lg:text-9xl text-accent">
           MAKØTO
           </h1>
-          <p className="font-light text-foreground text-lg">
-          MAKØTOのお仕事<br className="sm:hidden"></br>協力してみませんか？！
+          <p className="font-light text-foreground text-sm md:text-lg">
+          MAKØTOのお仕事を<br className="sm:hidden"></br>協力してみませんか？！
           </p>
         </div>
       </div>

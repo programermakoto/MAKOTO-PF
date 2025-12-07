@@ -25,8 +25,8 @@ export default function Grid() {
             title: "動画クリエイター",
             description: "動画制作、編集、配信、広告運用、撮影",
             img: "/model-7.webp",
-            salary: "月給10万円～",
-            days: "週4～5日",
+            salary: "月給20万円～",
+            days: "週5日",
             age: "20～35歳",
             sideJob: "可",
         },
@@ -34,8 +34,8 @@ export default function Grid() {
             title: "Webデザイナー",
             description: "Webサイトデザイン、デザインガイドライン作成、デザインチェック、デザイン修正",
             img: "/model-3.webp",
-            salary: "月給10万円～",
-            days: "週4～5日",
+            salary: "月給20万円～",
+            days: "週5日",
             age: "20～35歳",
             sideJob: "可",
         },
@@ -49,10 +49,10 @@ export default function Grid() {
             sideJob: "可",
         },
         {
-            title: "宅内自宅ファイバー設定係",
+            title: "宅内自宅ファイバー業務",
             description: "宅内自宅ファイバー設定、宅内自宅ファイバー設定チェック、宅内自宅ファイバー設定修正",
             img: "/eo-image.webp",
-            salary: "月給24万円～40万",
+            salary: "月給15万円～30万",
             days: "週5日",
             age: "20～40歳",
             sideJob: "可",
@@ -61,7 +61,7 @@ export default function Grid() {
             title: "セールスマネージャー",
             description: "通信事業統括、エンジニア統括、電話対応、営業、公式LINE&メール対応",
             img: "/model-1.webp",
-            salary: "月給27万円～",
+            salary: "月給15万円～",
             days: "週5日",
             age: "25～40歳",
             sideJob: "可",
@@ -75,13 +75,12 @@ export default function Grid() {
             age: "20～60歳",
             sideJob: "可",
         },
-        // 他の項目も同様に追加
     ];
 
     const [activeIndex, setActiveIndex] = useState(null);
     return (
         <article className='my-4 space-y-2 px-4'>
-            <h2 className='py-2   text-xl  capitalize text-center'>あなたは何になりたいですか？！</h2>
+            <h2 className='py-2   text-xl  capitalize text-center'>あなたは<br className="sm:hidden"></br>何になりたいですか？！</h2>
             <div className='w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4 text-center p-2 md:p-2'>
                 {items.map((item, index) => (
                     <div key={index} className='relative'>

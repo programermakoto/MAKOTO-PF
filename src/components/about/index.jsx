@@ -12,7 +12,7 @@ const AboutDetails = () => {
             " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
           }
         >
-          <h2 className="  text-sm md:text-2xl text-left w-full capitalize">
+          <h2 className="text-center  text-sm md:text-2xl  w-full capitalize">
             Founder of KANOA GROUP Co., Ltd.
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
@@ -48,10 +48,10 @@ const AboutDetails = () => {
         >
           <div className="text-center p-3">
             <h2 className="py-2   text-xl  capitalize">IT事業としての実績</h2>
-            <p className="text-sm">個人事業主&法人での制作したホームページ一覧</p>
+            <p className="text-sm">個人事業主&法人で<br className="sm:hidden"></br>制作したホームページ一覧</p>
             <br></br>
 
-            <Link href="https://github.com/programermakoto" className="border rounded-3xl block m-2 border-solid hover:bg-gray-900 hover:text-white border-white py-2 px-4">GitHubで確認</Link>
+            <Link href="https://www.tiktok.com/@hp_create_of_kanoa.group?_r=1&_t=ZS-921g5YyxFjA" className="border rounded-3xl block m-2 border-solid hover:bg-gray-900 hover:text-white border-white py-2 px-4">TikTokで確認</Link>
             <Link href="https://kanoa-group.com/hp-create" className="border rounded-3xl m-2 block border-solid hover:bg-gray-900 hover:text-white border-white px-4 py-2">会社HPで確認</Link>
 
           </div>
@@ -62,10 +62,10 @@ const AboutDetails = () => {
           <div className=" p-3 flex justify-center items-center">
             <div className="py-10">
               <h2 className="py-2 text-center  text-xl  capitalize">どんな会社？？</h2>
-              <p className="text-sm py-3"><span className="text-xl block text-left">【IT教育】</span>・プログラミングスクール・アプリ教育[GK-U]</p>
-              <p className="text-sm py-3"><span className="text-xl block text-left">【WEB制作】</span>・ホームページ制作・システム・アプリ開発</p>
-              <p className="text-sm py-3"><span className="text-xl block text-left">【通信インフラ】</span>・宅内光ファイバー業務・電気通信工事</p>
-              <Link href="https://kanoa-group.com" className="border block rounded-3xl  border-solid hover:bg-gray-900 hover:text-white border-white my-10 px-4 py-2">株式会社KANOA GROUPのHPを確認</Link>
+              <p className="text-sm py-3"><span className="text-xl block text-left">【IT教育】</span>・プログラミングスクール/アプリ教育[GK-U]</p>
+              <p className="text-sm py-3"><span className="text-xl block text-left">【WEB制作】</span>・ホームページ制作/システム/アプリ開発</p>
+              <p className="text-sm py-3"><span className="text-xl block text-left">【通信インフラ】</span>・宅内光ファイバー業務/電気通信工事</p>
+              <Link href="https://kanoa-group.com" className="border block rounded-3xl text-center border-solid hover:bg-gray-900 hover:text-white border-white my-10 px-4 py-2">株式会社KANOA GROUPを確認</Link>
             </div>
           </div>
 
@@ -73,15 +73,15 @@ const AboutDetails = () => {
 
         <ItemLayout className={"col-span-full"}>
           <div className=" p-3">
-            <h2 className="py-4 text-center  text-xl  capitalize">こんなことできたらいいな💭</h2>
+            <h2 className="py-4 text-center  text-xl  capitalize">僕。個人の理想！<br className="sm:hidden"></br>こんな事ができたらいいな💭</h2>
             <div className="space-y-3">
-              <p className="text-sm">・料理のプロと繋がりTikTok更新やお店の紹介させて貰えば喜びます</p>
-              <p className="text-sm">・通信事業(30万の固定給)社員さん募集！紹介してもらうと喜びます</p>
-              <p className="text-sm">・当社に投資：一口10万円の一回のみの投資で月々3000円の配当</p>
+              <p className="text-sm">・料理のプロと繋がりTikTok更新や<br className="sm:hidden"></br>お店の紹介させて貰えば喜びます</p>
+              <p className="text-sm">・通信事業(30万の固定給)社員募集！<br className="sm:hidden"></br>紹介してもらうと喜びます</p>
               <p className="text-sm">・副業でスキルなしでの商品購入代行できる人材紹介で喜びます</p>
               <p className="text-sm">・個人事業主・人材紹介業の方・ゴルフ好きの紹介で喜びます</p>
               <p className="text-sm">・Webサイト/アプリ開発/動画編集の依頼を貰うと喜びます</p>
-              <p className="text-sm">・自社でアパレル販売をしたい〜！笑</p>
+              <p className="text-sm">・自社でアパレル販売</p>
+              <p className="text-sm">・リゾートホテル事業(ヴィラの運営)</p>
             </div>
           </div>
         </ItemLayout>
@@ -93,23 +93,23 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
 
           <Link
-            href="https://github.com/codebucks27/Nextjs-contentlayer-blog"
+            href="https://kanoa-group.com/contact"
             target="_blank"
             className="w-full block"
           >
             <div className="text-center p-3">
-              <h2 className="py-2   text-xl  capitalize">GK-Uオンラインスクールサービス</h2>
+              <h2 className="py-2   text-xl  capitalize">GK-Uオンラインスクール<br className="sm:hidden"></br>サービス</h2>
               <p className="text-sm">全ビジネスのスキルが
               <br className="sm:hidden"></br>動画で学べ&現役経営者や技術者に質問可能。<br></br>更にスクールがお金をお客さんに<br className="sm:hidden"></br>支払う仕組み=案件がスキル不要で取得可能</p>
               <br className="sm:hidden"></br>
               <hr></hr>
               <br className="sm:hidden"></br>
               <ul className="p-5 text-left space-y-2">
-                <li>・公式LINEで提示されたブログ更新で3000円</li>
-                <li>・公式LINEで提示されたSNSに「コメント&いいね」で100円</li>
-                <li>・公式LINEで提示されたHP制作で20000円〜</li>
-                <li>・公式LINEで提示されたアプリ開発で100,000円〜</li>
-                <li>・公式LINEで提示された商品購入代行:1商品あたり100,000円〜</li>
+                <li>・ブログ更新で3000円</li>
+                <li>・SNSに「コメント&いいね」で100円</li>
+                <li>・HP制作で20000円〜</li>
+                <li>・アプリ開発で100,000円〜</li>
+                <li>・商品購入代行:1商品あたり100,000円〜</li>
               </ul>
 
               <small>詳細はClick📍</small>

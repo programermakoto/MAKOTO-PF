@@ -32,15 +32,15 @@ const BlogModal = ({ isOpen, onClose, blog, demoLink }) => {
               {/* 閉じるボタン */}
               <button
                 onClick={onClose}
-                className="absolute top-4 right-4 text-foreground hover:text-accent transition-colors"
+                className="absolute top-3 right-3 md:top-4 md:right-4 z-10 p-2 rounded-full bg-background/80 hover:bg-background/90 text-foreground hover:text-accent transition-all shadow-lg backdrop-blur-sm"
                 aria-label="閉じる"
               >
-                <X size={24} />
+                <X size={20} className="md:w-6 md:h-6" />
               </button>
 
               {/* ブログコンテンツ */}
-              <div className="max-w-none">
-                <h1 className="text-xl md:text-2xl md:text-3xl font-bold text-foreground mb-6">
+              <div className="max-w-none pr-8 md:pr-12">
+                <h1 className="text-xl md:text-2xl  font-bold text-foreground mb-6">
                   {blog.title}
                 </h1>
                 <div
