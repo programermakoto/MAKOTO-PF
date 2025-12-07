@@ -19,8 +19,8 @@ const Staff = React.memo(function Staff(props) {
     <group
       {...props}
       dispose={null}
-      scale={[3, 3, 3]}
-      position={[0, -2, 0]}
+      scale={[50, 50, 50]}
+      position={[10, -40, 0]}
       ref={modelRef}
     >
       <mesh

@@ -1,18 +1,20 @@
+
 import {
-  Github,
+  Book,
+  Building2Icon,
   Home,
-  Linkedin,
-  NotebookText,
-  Palette,
+  MegaphoneIcon,
+  MonitorSmartphoneIcon,
   Phone,
-  Twitter,
   User,
+  Utensils,
 } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 import ResponsiveComponent from "../ResponsiveComponent";
 import clsx from "clsx";
 import { motion } from "framer-motion";
+
 
 const getIcon = (icon) => {
   switch (icon) {
@@ -21,17 +23,17 @@ const getIcon = (icon) => {
     case "about":
       return <User className="w-full h-auto" strokeWidth={1.5} />;
     case "projects":
-      return <Palette className="w-full h-auto" strokeWidth={1.5} />;
+      return <MegaphoneIcon className="w-full h-auto" strokeWidth={1.5} />;
     case "contact":
       return <Phone className="w-full h-auto" strokeWidth={1.5} />;
-    case "github":
-      return <Github className="w-full h-auto" strokeWidth={1.5} />;
-    case "linkedin":
-      return <Linkedin className="w-full h-auto" strokeWidth={1.5} />;
-    case "twitter":
-      return <Twitter className="w-full h-auto" strokeWidth={1.5} />;
-    case "resume":
-      return <NotebookText className="w-full h-auto" strokeWidth={1.5} />;
+    case "cooking":
+      return <Book className="w-full h-auto" strokeWidth={1.5} />;
+    case "TikTok1":
+      return <Utensils className="w-full h-auto" strokeWidth={1.5} />;
+    case "TikTok2":
+      return <MonitorSmartphoneIcon className="w-full h-auto" strokeWidth={1.5} />;
+    case "kanoa":
+      return <Building2Icon className="w-full h-auto" strokeWidth={1.5} />;
 
     default:
       return <Home className="w-full h-auto" strokeWidth={1.5} />;

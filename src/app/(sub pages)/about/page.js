@@ -24,7 +24,7 @@ export default function Home() {
       />
 
       <div className="w-full h-3/5 xs:h-3/4 sm:h-screen absolute top-1/2 -translate-y-1/2 left-0 z-10">
-        <RenderModel>
+        <RenderModel enableZoom={false}>
           <HatModel />
         </RenderModel>
       </div>
@@ -32,10 +32,10 @@ export default function Home() {
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
         <div className="absolute flex flex-col items-center text-center top-1/2 sm:top-[60%] left-1/2 -translate-y-1/2 -translate-x-1/2">
           <h1 className="font-bold  text-6xl xs:text-7xl sm:text-8xl  lg:text-9xl text-accent">
-            CodeBucks
+          MAKØTO
           </h1>
           <p className="font-light text-foreground text-lg">
-            Meet the wizard behind this portfolio
+          MAKØTOのお仕事に協力してみませんか？！
           </p>
         </div>
       </div>
