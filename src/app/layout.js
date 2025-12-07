@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
         <FireFliesBackground />
         <Sound />
         <div id="my-modal" />
+        <footer className="sticky bottom-0"></footer>
       </body>
     </html>
   );
