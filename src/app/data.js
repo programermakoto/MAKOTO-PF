@@ -131,13 +131,39 @@ export const projectsData = [
         <p>商品購入代行(10万〜40万)</p>
         <p>個人事業主の方に(2万/月)</p>
         <p>ブログ更新(広告)で(3000円)<p>
-        <p>TikTokコメントで(300円)<p>
-        <p>TikTokコメント&いいねで(300円)<p>
+        <p>TikTokコメント&いいねで(100円)<p>
         <p>興味のある方は、公式LINEまでお気軽にお問い合わせください。</p>
       `,
     },
   },
-  
+  {
+    id: 7,
+    name: "公式LINEの違いについて",
+    description: "2種類ある公式LINE使い分け",
+    date: "2024-12-10",
+    demoLink: "",
+    blog: {
+      title: "2種類ある公式LINEの違いについて",
+      content: `
+       <h4>KANOAGROUP公式ライン</h4>
+       <ul>
+        <li>【IT教育】プログラミングスクール/アプリ教育[GK-U]</li>
+        <li>【WEB制作】ホームページ制作/システム/アプリ開発</li>
+        <li>【通信インフラ】宅内光ファイバー業務/電気通信工事</li>
+       </ul>
+       <small>に関しましてはKANOA GROUP公式LINEまで</small>
+       <hr>
+       <h4>MAKØTO公式ライン</h4>
+       <ul>
+        <li>【TikTok配信】Le Repas MAKØTO's レシピ</li>
+        <li>【GK-U案件】スキル不要副業案件</li>
+        <li>【YouTube】本気チャンネル</li>
+       </ul>
+       <small>に関しましてはMAKØTO公式LINEまで</small>
+      `,
+    },
+  },
+
 ];
 
 export const BtnList = [

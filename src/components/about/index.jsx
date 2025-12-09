@@ -61,7 +61,7 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <div className=" p-3 flex justify-center items-center">
             <div className="py-10">
-              <h2 className="py-2 text-center  text-xl  capitalize">どんな会社？？</h2>
+              <h2 className="py-2 text-center  text-xl  capitalize">寺内誠将の会社って<br className="sm:hidden"></br>どんな会社？？</h2>
               <p className="text-sm py-3"><span className="text-xl block text-left">【IT教育】</span>・プログラミングスクール/アプリ教育[GK-U]</p>
               <p className="text-sm py-3"><span className="text-xl block text-left">【WEB制作】</span>・ホームページ制作/システム/アプリ開発</p>
               <p className="text-sm py-3"><span className="text-xl block text-left">【通信インフラ】</span>・宅内光ファイバー業務/電気通信工事</p>
@@ -73,16 +73,31 @@ const AboutDetails = () => {
 
         <ItemLayout className={"col-span-full"}>
           <div className=" p-3">
-            <h2 className="py-4 text-center  text-xl  capitalize">僕。個人の理想！<br className="sm:hidden"></br>こんな事ができたらいいな💭</h2>
+            <h2 className="py-4 text-center  text-base md:text-xl  capitalize">僕。個人の理想！<br className="sm:hidden"></br>こんな事ができたらいいな💭</h2>
             <div className="space-y-3">
-              <p className="text-sm">・料理のプロと繋がりTikTok更新や<br className="sm:hidden"></br>お店の紹介させて貰えば喜びます</p>
-              <p className="text-sm">・通信事業(30万の固定給)社員募集！<br className="sm:hidden"></br>紹介してもらうと喜びます</p>
-              <p className="text-sm">・副業でスキルなしでの商品購入代行できる人材紹介で喜びます</p>
-              <p className="text-sm">・個人事業主・人材紹介業の方・ゴルフ好きの紹介で喜びます</p>
-              <p className="text-sm">・Webサイト/アプリ開発/動画編集の依頼を貰うと喜びます</p>
-              <p className="text-sm">・自社でアパレル販売</p>
-              <p className="text-sm">・リゾートホテル事業(ヴィラの運営)</p>
+              <p className="text-sm">
+                ・料理の専門家の方と繋がり、TikTok更新やお店の紹介をお手伝いできるご縁をいただけると嬉しいです
+              </p>
+              <p className="text-sm">
+                ・通信事業（固定給30万円）の社員募集に関するご紹介をいただけると嬉しいです
+              </p>
+              <p className="text-sm">
+                ・副業としてスキル不要の商品購入代行に取り組める人材をご紹介いただけると嬉しいです
+              </p>
+              <p className="text-sm">
+                ・個人事業主の方、人材紹介業の方、ゴルフ好きの方をご紹介いただけると嬉しいです
+              </p>
+              <p className="text-sm">
+                ・Webサイト制作・アプリ開発・動画編集のご依頼をいただけると嬉しいです
+              </p>
+              <p className="text-sm">
+                ・自社アパレル商品の販売に関するご相談をいただけると嬉しいです
+              </p>
+              <p className="text-sm">
+                ・ヴィラ運営を中心としたリゾートホテル事業についてのご紹介をいただけると嬉しいです
+              </p>
             </div>
+
           </div>
         </ItemLayout>
 
@@ -98,24 +113,36 @@ const AboutDetails = () => {
             className="w-full block"
           >
             <div className="text-center p-3">
-              <h2 className="py-2   text-xl  capitalize">GK-Uオンラインスクール<br className="sm:hidden"></br>サービス</h2>
-              <p className="text-sm">全ビジネスのスキルが
-              <br className="sm:hidden"></br>動画で学べ&現役経営者や技術者に質問可能。<br></br>更にスクールがお金をお客さんに<br className="sm:hidden"></br>支払う仕組み=案件がスキル不要で取得可能</p>
+              <h2 className="py-2 text-xl capitalize">
+                GK-Uオンラインスクール<br className="sm:hidden"></br>サービス
+              </h2>
+
+              <p className="text-xs">
+                全てのビジネススキルを動画で学べるほか、現役の経営者や技術者へ直接質問できる環境をご用意しています。
+                さらに、スクール側がお客様へ報酬をお支払いする仕組みにより、スキル不要で案件を獲得することも可能です。
+              </p>
+
               <br className="sm:hidden"></br>
               <hr></hr>
               <br className="sm:hidden"></br>
+              
+
               <ul className="p-5 text-left space-y-2">
-                <li>・ブログ更新で3000円</li>
-                <li>・SNSに「コメント&いいね」で100円</li>
-                <li>・HP制作で20000円〜</li>
-                <li>・アプリ開発で100,000円〜</li>
-                <li>・商品購入代行:1商品あたり100,000円〜</li>
+                <li>・ブログ更新 <br className="sm:hidden"></br>：1件あたり 3,000円</li>
+                <br className="sm:hidden"></br>
+                <li>・SNSでの「コメント＆いいね」<br className="sm:hidden"></br>：1回あたり 100円</li>
+                <br className="sm:hidden"></br>
+                <li>・HP制作 <br className="sm:hidden"></br>：20,000円〜</li>
+                <br className="sm:hidden"></br>
+                <li>・アプリ開発 <br className="sm:hidden"></br>：100,000円〜</li>
+                <br className="sm:hidden"></br>
+                <li>・商品購入代行 <br className="sm:hidden"></br>：1商品あたり 100,000円〜</li>
+                <br className="sm:hidden"></br>
               </ul>
 
-              <small>詳細はClick📍</small>
-
-
+              <small>詳細はClickして担当者に確認しよう📍</small>
             </div>
+
           </Link>
         </ItemLayout>
       </div>
